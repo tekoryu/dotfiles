@@ -10,6 +10,7 @@
   },
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
+  "awaySummaryEnabled": false,
   "permissions": {
     "allow": [
       "Bash(*)",
