@@ -1,7 +1,7 @@
 {
   "statusLine": {
     "type": "command",
-    "command": "npx --yes @owloops/claude-powerline@latest --style=powerline --theme=tokyo-night"
+    "command": "npx --yes @owloops/claude-powerline@latest --config=/home/tekoryu/.claude/claude-powerline.json"
   },
   "model": "opus",
   "enabledPlugins": {
