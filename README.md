@@ -7,6 +7,10 @@ Personal configuration files for **tekoryu**.
 ```
 dotfiles/
 ├── arch/           ← Arch Linux (this machine)
+│   ├── home/
+│   │   ├── .zshrc        oh-my-zsh + powerlevel10k
+│   │   ├── .p10k.zsh     powerlevel10k prompt config
+│   │   └── .gitconfig    git identity + defaults
 │   └── .config/
 │       ├── fish/         shell
 │       ├── kitty/        terminal
@@ -17,7 +21,6 @@ dotfiles/
 │       ├── matugen/      Material You color theming
 │       ├── starship.toml prompt
 │       ├── fastfetch/    system info
-│       ├── kitty/        terminal
 │       ├── mpv/          media player
 │       ├── ranger/       file manager
 │       ├── spotify-player/
@@ -40,4 +43,4 @@ dotfiles/
 
 ## Usage
 
-Symlink or copy the relevant `arch/.config/*` entries into `~/.config/`.
+Symlink or copy `arch/home/.*` into `~/` and `arch/.config/*` into `~/.config/`.
