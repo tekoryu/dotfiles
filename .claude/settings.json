@@ -1,4 +1,8 @@
 {
+  "statusLine": {
+    "type": "command",
+    "command": "bash /home/tekoryu/.claude/statusline-command.sh"
+  },
   "model": "opus",
   "enabledPlugins": {
     "commit-commands@claude-code-plugins": true,
